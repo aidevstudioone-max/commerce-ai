@@ -1,0 +1,15 @@
+const base = { width: 22, height: 22, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 1.8, strokeLinecap: 'round', strokeLinejoin: 'round' }
+
+export const IconSpark = (p) => (<svg {...base} {...p}><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8L12 2z" /></svg>)
+export const IconChart = (p) => (<svg {...base} {...p}><path d="M4 20V10M12 20V4M20 20v-7" /></svg>)
+export const IconStar = (p) => (<svg {...base} {...p}><path d="M12 3l2.7 5.9 6.3.7-4.7 4.4 1.3 6.3L12 17l-5.6 3.3 1.3-6.3-4.7-4.4 6.3-.7L12 3z" /></svg>)
+export const IconCheck = (p) => (<svg {...base} {...p}><path d="M4 12.5l5.5 5.5L20 6" /></svg>)
+export const IconBox = (p) => (<svg {...base} {...p}><path d="M3 7l9-4 9 4-9 4-9-4z" /><path d="M3 7v10l9 4 9-4V7" /><path d="M12 11v10" /></svg>)
+export const IconGauge = (p) => (<svg {...base} {...p}><circle cx="12" cy="12" r="9" /><path d="M12 12l4-4" /><path d="M8 16h.01" /></svg>)
+export const IconLink = (p) => (<svg {...base} {...p}><path d="M8 12L5.5 14.5a3 3 0 004 4L12 16" /><path d="M16 12l2.5-2.5a3 3 0 00-4-4L12 8" /><path d="M9 15l6-6" /></svg>)
+export const IconUsers = (p) => (<svg {...base} {...p}><circle cx="9" cy="8" r="3" /><path d="M2.5 20c0-3.6 3-6 6.5-6s6.5 2.4 6.5 6" /><circle cx="17.5" cy="9" r="2.3" /><path d="M15.5 14.2c2.7.3 5 2.4 5 5.8" /></svg>)
+export const IconMenu = (p) => (<svg {...base} {...p}><path d="M4 7h16M4 12h16M4 17h16" /></svg>)
+export const IconClose = (p) => (<svg {...base} {...p}><path d="M6 6l12 12M18 6L6 18" /></svg>)
+export const IconArrowRight = (p) => (<svg {...base} {...p}><path d="M5 12h14M13 6l6 6-6 6" /></svg>)
+export const IconTrend = (p) => (<svg {...base} {...p}><path d="M3 17l6-6 4 4 8-8" /><path d="M15 7h6v6" /></svg>)
+export const IconWand = (p) => (<svg {...base} {...p}><path d="M4 20l10-10" /><path d="M14 4l1.2 2.8L18 8l-2.8 1.2L14 12l-1.2-2.8L10 8l2.8-1.2L14 4z" /><path d="M19 14l.7 1.6L21.3 16l-1.6.7L19 18.3l-.7-1.6L16.7 16l1.6-.4L19 14z" /></svg>)
